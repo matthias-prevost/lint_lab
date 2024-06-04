@@ -1,6 +1,6 @@
 import 'package:analyzer/error/listener.dart';
 import 'package:custom_lint_builder/custom_lint_builder.dart';
-import 'package:lint_plugin/src/utils/is_type_or_subtype_of.dart';
+import 'package:lint_plugin/src/example/utils/is_type_or_subtype_of.dart';
 
 /// A lint rule that prevent from using `firstWhere` method on [Iterable]
 class FirstWhereUsageRule extends DartLintRule {
