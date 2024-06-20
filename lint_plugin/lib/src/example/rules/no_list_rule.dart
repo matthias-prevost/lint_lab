@@ -23,9 +23,9 @@ class NoListRule extends DartLintRule {
       final initializerType = node.initializer?.staticType;
 
       if (initializerType != null && initializerType.isDartCoreList) {
-        reporter.reportErrorForToken(
+        reporter.reportErrorForNode(
           NoListRule._code,
-          node.name,
+          node,
         );
       }
     });

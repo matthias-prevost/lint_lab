@@ -4,7 +4,7 @@ int calculate() {
   final variable = IList([1]);
 
   final list2 = IList([1, 0, "&"]);
-  var list3 = IList(["abczdc", "peojoeijd", "oakdoazd"]);
+  var list3 = ["a", "b", "c"];
 
   print(list2);
   print(list3);
